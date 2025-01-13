@@ -3,7 +3,7 @@
 	<identification>
 		<created-by>TCstudio4.6.1</created-by>
 		<edited-with>TCStudio4.6.1</edited-with>
-		<date>Tue Apr 44 14:38:57 CEST 2018</date>
+		<date>Mon Jan 13 16:06:25 CET 2025</date>
 		<xml-version>4.5</xml-version>
 	</identification>
 	<model>
@@ -2806,6 +2806,16 @@
 												<ref>sequency</ref>
 											</attribute-ref>
 											<integer>3</integer>
+										</binary>
+									</constraint-content>
+								</constraint>
+								<constraint enabled="yes">
+									<constraint-content>
+										<binary operator="eq">
+											<attribute-ref>
+												<ref>color</ref>
+											</attribute-ref>
+											<symbol>yellow</symbol>
 										</binary>
 									</constraint-content>
 								</constraint>
